@@ -46,7 +46,7 @@ const Nav = (props) => {
     ${isTop ? "bg-slate-700" : "bg-white"}`}
     >
       <li
-        className={`ml-24 ${NavHover} ${
+        className={`ml-8 sm:ml-16 md:ml-24 lg:ml-24  ${NavHover} ${
           isClicked === "GoPT" ? (isTop ? `${ClickedWhite}` : `${Clicked}`) : ""
         } `}
       >
@@ -60,7 +60,7 @@ const Nav = (props) => {
         </Link>
       </li>
       <li
-        className={`${NavHover} ml-auto  ${
+        className={`ml-auto sm:ml-auto md:ml-auto lg:ml-auto  ${NavHover}  ${
           isClicked === "home"
             ? isTop
               ? `${ClickedWhite}`
@@ -80,7 +80,7 @@ const Nav = (props) => {
         </Link>
       </li>
       <li
-        className={`${NavHover} mx-12  ${
+        className={`mx-0 sm:mx-4 md:mx-8 lg:mx-12 truncate ${NavHover}  ${
           isClicked === "body" ? (isTop ? `${ClickedWhite}` : `${Clicked}`) : ""
         }`}
       >
@@ -94,7 +94,7 @@ const Nav = (props) => {
         </Link>
       </li>
       <li
-        className={`${NavHover} mr-24  ${
+        className={`mr-0 sm:mr-8 md:mr-16 lg:mr-24 ${NavHover} ${
           isClicked === "footer"
             ? isTop
               ? `${ClickedWhite}`

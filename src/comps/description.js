@@ -3,7 +3,7 @@ const Description = () => {
     <div className="w-[60%] min-h-screen bg-gray-200 m-auto flex body">
       <div className="w-1/2 h-[70vh] m-auto flex flex-col ">
         <div className="h-2/5 bg-gray-700 flex justify-center items-center">
-          <div className="text-white text-lg text-center">
+          <div className="text-white text-lg text-center text-ellipsis">
             <p>소개글을 여기에 적어주세요.</p>
             <p>이 부분은 자유롭게 편집 가능합니다.</p>
           </div>
